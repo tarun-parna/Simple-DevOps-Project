@@ -20,6 +20,7 @@ jobs:
       - name: Display runner information
         run: |
           echo "Running on GitHub-hosted runner"
+          hostname
           uname -a
           pwd
           ls -la
