@@ -29,4 +29,8 @@ jobs:
           sudo apt install nginx -y
           sudo ufw allow 'Nginx HTTP'
           sudo systemctl start nginx
+          sudo apt install curl
+          curl http://127.0.0.1:80/
+
+
           
