@@ -24,3 +24,4 @@ jobs:
           uname -a
           pwd
           ls -la
+          cat /etc/os-release
