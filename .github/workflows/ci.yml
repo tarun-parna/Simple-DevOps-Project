@@ -28,5 +28,5 @@ jobs:
           sudo apt update
           sudo apt install nginx -y
           sudo ufw allow 'Nginx HTTP'
-          sudo systemctl status nginx
+          sudo systemctl start nginx
           
