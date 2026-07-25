@@ -25,3 +25,6 @@ jobs:
           pwd
           ls -la
           cat /etc/os-release
+          sudo apt update
+          sudo apt install nginx -y
+
