@@ -21,6 +21,7 @@ jobs:
         run: |
           echo "Running on GitHub-hosted runner"
           hostname
+          hostname -I
           uname -a
           pwd
           ls -la
