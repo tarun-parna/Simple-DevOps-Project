@@ -26,6 +26,7 @@ jobs:
           pwd
           ls -la
           cat /etc/os-release
+          sudo whoami
           sudo apt update
           sudo apt install nginx -y
           sudo ufw allow 'Nginx HTTP'
